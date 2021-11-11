@@ -1,0 +1,13 @@
+mkdir thumbnail
+for input in *.jpg ; do
+convert ${input} -resize 10% thumbnail/${input}
+done
+echo "thumbnail images are made"
+convert *.jpg sv_skeleton.pdf
+echo "sv_skeleton.pdf done, now you have to rename it"
+for input in *.png ; do
+convert ${input} -resize 10% thumbnail/${input}
+done
+echo "thumbnail images are made"
+convert *.png sv_skeleton.pdf
+echo "sv_skeleton.pdf done, now you have to rename it"

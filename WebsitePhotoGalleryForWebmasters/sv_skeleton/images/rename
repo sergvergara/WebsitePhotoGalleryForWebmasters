@@ -1,0 +1,11 @@
+for foobar in *.png ;
+do
+  temp=`echo "$foobar" | cut -c 3-`
+  mv $foobar "$temp" ;
+done
+
+for foobar in *.jpg ;
+do
+  temp=`echo "$foobar" | cut -c 3-`
+  mv $foobar "$temp" ;
+done
