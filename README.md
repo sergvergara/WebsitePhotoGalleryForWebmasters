@@ -8,29 +8,29 @@ Website Photo Gallery For Webmasters. Generated from the pictures you provide, a
 Requeriments: Hosting with PHP Server. BASH Shell, Text Editor.
 
 Files structure:
-
-sv_skeleton/
+</br>
+sv_skeleton/ </br>
+│   </br>
+├── images/ </br>
+│   ├── thumbnail/ </br>
+│   │     ├── 00.png </br>
+│   │     ├── ... </br>
+│   │     └── 10.png </br>
+│   │ </br>
+│   ├── 00.png </br>
+│   ├── ... </br>
+│   ├── 10.png </br>
+│   ├── create </br>
+│   ├── rename </br>
+│   └── sv_skeleton.pdf </br>
+│   </br>
+├── simplelightbox-master/ </br>
+│   ├── ... </br>
+│   └── ... </br>
 │   
-├── images/
-│   ├── thumbnail/
-│   │     ├── 00.png
-│   │     ├── ...
-│   │     └── 10.png
-│   │
-│   ├── 00.png
-│   ├── ...
-│   ├── 10.png
-│   ├── create
-│   ├── rename
-│   └── sv_skeleton.pdf
-│   
-├── simplelightbox-master/
-│   ├── ...
-│   └── ...
-│   
-├── index.php
-├── Readme.txt
-├── style.css
-└── childhoodNotebooks.jpg
-
-Enjoy!
+├── index.php </br>
+├── Readme.txt </br>
+├── style.css </br>
+└── childhoodNotebooks.jpg </br>
+</br>
+Enjoy! </br>
